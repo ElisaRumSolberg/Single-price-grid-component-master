@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px (0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 700px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  
+ 
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  grid-column: span 2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.8em;
+  text-align: left;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.money_back {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.description {
+  color: hsl(218, 22%, 67%);
+  text-align: left;
+  font-weight: 400;
+  margin-top: 15px;
+  line-height: 30px;
+  
+}
+
+.subscription_info,
+.why_us {
+  padding: 2em;
+  color: white;
+}
+
+.subscription_info {
+  background-color: hsl(179, 62%, 43%);
+  text-align: left;
+
+}
+
+.price_text{
+    margin-top: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:left; /* Alt çizgiyi hizalar */
+    gap: 0.5em; 
+    margin: 10px 0;
+
+   
+} 
+   
+
+.price {
+  color: (204, 43%, 93%);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.per-month {
+
+  font-size: 1em;
+  font-weight: 400;
+  color: (204, 43%, 93%);
+  opacity: 0.5;
+  
+}
+
+
+.access {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+button{
+    background-color: hsl(71, 73%, 54%); /* Bright Yellow */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    padding:15px 100px;
+    cursor: pointer;
+    margin-top: 50px;
+
+    transition: background-color 0.3s;
+    text-align: center;
+    font-weight: 700;
+}
+button:hover {
+    background-color: hsl(71, 73%, 50%);
+}
+
+.why_us {
+    background-color: hsl(179, 62%, 43%);
+    text-align: left;
+    opacity:0.9;
+}
+
+.why-us h2 {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+  margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    font-size: 12px;
+    padding-left: 0;
+    margin-top: 30px;
+    line-height: 1.8;
+    opacity:0.7;
+
+
+}
+
+li {
+    margin-bottom: 8 px;
+    text-align:left;
+}
+
+
+
+@media (max-width: 768px) {
+    main {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+    }
+  
+    header {
+      grid-column: span 1;
+    }
+  
+    .subscription_info {
+      grid-column: span 1;
+    }
+  
+    .why_us {
+      grid-column: span 1;
+    }
+  }
