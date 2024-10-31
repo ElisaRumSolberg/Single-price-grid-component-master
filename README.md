@@ -32,10 +32,10 @@ Users should be able to:
 ### Screenshots
 
 #### Desktop View
-![Desktop View](./image-desktop.jpg)
+![Desktop View](./image/desktop.png)
 
 #### Mobile View
-![Mobile View](./screenshot-mobile.jpg)
+![Mobile View](./image/mobile.png)
 
 *Screenshots provide a visual reference for the completed design on both desktop and mobile.*
 
