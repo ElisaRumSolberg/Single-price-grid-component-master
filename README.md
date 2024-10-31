@@ -84,8 +84,8 @@ I plan to focus on:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ElisaRumSolberg)
-- GitHub - [@yourusername](https://github.com/ElisaRumSolberg)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/ElisaRumSolberg](https://www.frontendmentor.io/profile/ElisaRumSolberg)
+- GitHub - [https://github.com/ElisaRumSolberg](https://github.com/ElisaRumSolberg)
 
 ## Acknowledgments
 
